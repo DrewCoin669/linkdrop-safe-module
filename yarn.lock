@@ -2025,6 +2025,11 @@ commander@2.11.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
   integrity sha512-b0553uYA5YAEGgyYIGYROzKQ7X5RAqedkfjiZxwi0kL1g3bOaBNNZfYkzt/CL0umgD5wc9Jec2FbB98CjkMRvQ==
 
+commander@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
+  integrity sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==
+
 commander@^2.8.1:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
@@ -3935,6 +3940,11 @@ js-sha3@0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.5.7.tgz#0d4ffd8002d5333aabaf4a23eed2f6374c9f28e7"
   integrity sha1-DU/9gALVMzqrr0oj7tL2N0yfKOc=
+
+js-sha3@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.8.0.tgz#b9b7a5da73afad7dedd0f8c463954cbde6818840"
+  integrity sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==
 
 js-sha3@^0.6.1:
   version "0.6.1"
@@ -5866,7 +5876,7 @@ solc@0.4.25:
     semver "^5.3.0"
     yargs "^4.7.1"
 
-solc@^0.5.0, solc@^0.5.1, solc@^0.5.9:
+solc@^0.5.0, solc@^0.5.1:
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/solc/-/solc-0.5.9.tgz#ec513bbbbb8b46b4b4d1a6a2764c50f34877fffc"
   integrity sha512-IyCEXnSbpb3ii8FkgNu0QDtCtnvyGCtYNQejOaIZi6/9/CLJ2ozDHN2oNG26HfGZ8op9yDgqC+5SHziFvkRZuA==
@@ -5879,6 +5889,20 @@ solc@^0.5.0, solc@^0.5.1, solc@^0.5.9:
     semver "^5.5.0"
     tmp "0.0.33"
     yargs "^11.0.0"
+
+solc@^0.5.11:
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/solc/-/solc-0.5.17.tgz#8a76c50e98d49ca7610cca2fdc78ff3016540c67"
+  integrity sha512-qpX+PGaU0Q3c6lh2vDzMoIbhv6bIrecI4bYsx+xUs01xsGFnY6Nr0L8y/QMyutTnrHN6Lb/Yl672ZVRqxka96w==
+  dependencies:
+    command-exists "^1.2.8"
+    commander "3.0.2"
+    fs-extra "^0.30.0"
+    js-sha3 "0.8.0"
+    memorystream "^0.3.1"
+    require-from-string "^2.0.0"
+    semver "^5.5.0"
+    tmp "0.0.33"
 
 source-map-resolve@^0.5.0:
   version "0.5.2"
